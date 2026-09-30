@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use propaxis, cite this software and the model and dataset sources relevant to your analysis."
+title: propaxis
+type: software
+version: 0.1.0
+date-released: '2026-09-30'
+authors:
+  - family-names: Tomašević
+    given-names: Aleksandar
+repository-code: 'https://github.com/atomashevic/propaxis'
+license: MIT
+abstract: 'An extensible Python library for constructing text measures from written propositions, scoring with local models, inspecting evidence, and calibrating binary classifiers.'

@@ -1,0 +1,80 @@
+{
+  "name": "populist_rhetoric",
+  "components": [
+    {
+      "name": "sovereignty",
+      "positive": [
+        "The ordinary people are the only true source of legitimate political power.",
+        "It is the people, not the officials, who must decide the future of this country.",
+        "We are here to give the country back to the people it belongs to.",
+        "The will of the ordinary citizen must come before the preferences of any institution.",
+        "Nobody has the right to overrule what the people have decided.",
+        "This movement is nothing more and nothing less than the voice of ordinary people.",
+        "Power must be returned to the hands of the people who built this nation.",
+        "The common people know perfectly well what is good for them.",
+        "Our people are sovereign and no authority stands above them.",
+        "What the ordinary working family wants is what this government will do."
+      ],
+      "contrast": [
+        "Complex policy questions require careful analysis by qualified specialists.",
+        "Our constitutional institutions provide the proper framework for these decisions.",
+        "This government will follow the recommendations of the independent commission.",
+        "Sound policy is developed through deliberation among many stakeholders.",
+        "We must respect the procedures that our legal system prescribes.",
+        "Expert advice has guided our approach throughout this process.",
+        "The relevant ministries have reviewed the evidence and issued their guidance.",
+        "Representative institutions exist precisely to weigh these competing interests.",
+        "We will proceed in accordance with established regulatory practice.",
+        "A technical assessment will determine the appropriate course of action."
+      ],
+      "hypotheses": [
+        "The ordinary people are the only true source of legitimate political power.",
+        "This movement is nothing more and nothing less than the voice of ordinary people.",
+        "It is the people, not the officials, who must decide the future of this country.",
+        "Power must be returned to the hands of the people who built this nation.",
+        "Our people are sovereign and no authority stands above them."
+      ],
+      "description": "people sovereignty"
+    },
+    {
+      "name": "obstruction",
+      "positive": [
+        "A corrupt elite has captured our institutions and turned them against the public.",
+        "The establishment in the capital works only for itself and its donors.",
+        "Bankers, lobbyists and career politicians have rigged the system against you.",
+        "A small privileged clique makes every decision behind closed doors.",
+        "The people in power have betrayed the country they were elected to serve.",
+        "Entrenched insiders block every reform that would help ordinary families.",
+        "They enrich themselves while the rest of the country is told to sacrifice.",
+        "An unelected bureaucracy overrules whatever the voters ask for.",
+        "The political class protects its own privileges above everything else.",
+        "Powerful interests have bought the influence that should belong to citizens."
+      ],
+      "contrast": [
+        "Our public servants have worked diligently to implement this programme.",
+        "The agency has met its obligations and reported transparently on its work.",
+        "Officials across government cooperated effectively on this initiative.",
+        "The civil service continues to deliver essential services to the public.",
+        "Regulators acted within their mandate and published their findings.",
+        "Members of this chamber have debated the proposal in good faith.",
+        "The commission consulted widely before publishing its recommendations.",
+        "Our institutions have proved resilient and accountable in difficult times.",
+        "Public bodies are subject to audit and parliamentary oversight.",
+        "The department has responded constructively to the concerns raised."
+      ],
+      "hypotheses": [
+        "Entrenched insiders block every reform that would help ordinary families.",
+        "A corrupt elite has captured our institutions and turned them against the public.",
+        "Bankers, lobbyists and career politicians have rigged the system against you.",
+        "The people in power have betrayed the country they were elected to serve.",
+        "They enrich themselves while the rest of the country is told to sacrifice."
+      ],
+      "description": "elite obstruction"
+    }
+  ],
+  "window": 3,
+  "top_k": 8,
+  "max_words": 60,
+  "combine": "geometric_mean",
+  "temperature": 0.25
+}
